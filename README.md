@@ -1,6 +1,8 @@
 # MINA-Gulp-Template
 微信小程序gulp构建模板
 
+
+
 ### start
 
 ```shell
@@ -13,6 +15,8 @@ gulp build:dev
 用微信小程序开发者工具打开wechat文件夹，这就是工程的测试环境代码。
 
 
+
+
 ### watch
 在开发中是用watch命令实时监听文件变化，而小程序开发者工具会自动刷新。
 
@@ -20,8 +24,10 @@ gulp build:dev
 gulp watch
 ```
 
+
+
 ### build
-‘打包’命令，生成各自环境的代码
+‘打包’命令，生成各自环境的代码, dev在wechat文件夹，pre在pre文件夹
 
 ```shell
 gulp build:dev
